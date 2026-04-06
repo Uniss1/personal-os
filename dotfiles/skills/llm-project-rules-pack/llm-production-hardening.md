@@ -1,8 +1,3 @@
----
-name: llm-production-hardening
-description: "Оптимизация и усиление production LLM-системы: critic, human-in-the-loop, уменьшение модели, fine-tuning, serving-оптимизации, итеративный цикл улучшений. Используй для запросов: 'как улучшить качество LLM', 'как удешевить инференс', 'как уменьшить модель', 'как проверять ответы', 'как улучшать RAG после запуска'."
----
-
 # LLM Production Hardening
 
 Используй этот skill, когда:

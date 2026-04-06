@@ -1,8 +1,3 @@
----
-name: llm-architecture-decisions
-description: "Выбор архитектурных решений в LLM-проекте: prompt vs RAG vs fine-tuning, tools, context design, workflow vs agents. Используй для запросов: 'нужен ли мне RAG', 'workflow или агент', 'как дать модели инструменты', 'стоит ли дообучать', 'как выбрать архитектуру LLM'."
----
-
 # LLM Architecture Decisions
 
 Используй этот skill, когда пользователь уже понимает задачу
