@@ -3,7 +3,7 @@ projects:
 # === LOCALLY CLONED ===
 - name: personal-os
   repo: Uniss1/personal-os
-  path: /home/valentin/projects/personal-os
+  path: /home/dmin/projects/personal-os
   description: "Personal OS — центральный хаб управления знаниями и проектами через GitHub Issues"
   stack: [bash, gh-cli]
   status: active
@@ -11,7 +11,7 @@ projects:
   local: true
 - name: claw-bot
   repo: Uniss1/claw-bot
-  path: /home/valentin/projects/claw-bot
+  path: /home/dmin/projects/claw-bot
   description: "OpenClaw — персональный AI-ассистент с поддержкой WhatsApp, Telegram, Slack, Discord, Teams"
   stack: [node, typescript, lit, aws-bedrock, postgresql, playwright, vitest, express, zod]
   status: active
@@ -19,7 +19,7 @@ projects:
   local: true
 - name: avdeev-blog
   repo: Uniss1/avdeev-blog
-  path: /home/valentin/projects/avdeev-blog
+  path: /home/dmin/projects/avdeev-blog
   description: "Персональный блог на Astro"
   stack: [astro, typescript, html, javascript, css, mdx]
   status: active
@@ -27,7 +27,7 @@ projects:
   local: true
 - name: index-project
   repo: Uniss1/index-project
-  path: /home/valentin/projects/index-project
+  path: /home/dmin/projects/index-project
   description: "Центральный хаб управления всеми проектами — каталог, задачи, аналитика"
   stack: [yaml, bash]
   status: archived
@@ -36,7 +36,7 @@ projects:
 # === REMOTE ONLY (not cloned locally) ===
 - name: ai-assistant
   repo: Uniss1/ai-assistant
-  path: /home/valentin/projects/ai-assistant
+  path: /home/dmin/projects/ai-assistant
   description: "Личный Telegram-бот помощник с интеграцией Obsidian, Todoist и Google Calendar"
   stack: [python, python-telegram-bot, chromadb, sqlite, pydantic, openai, apscheduler, google-calendar-api, todoist-api]
   status: active
@@ -44,7 +44,7 @@ projects:
   local: false
 - name: ai-team
   repo: Uniss1/ai-team
-  path: /home/valentin/projects/ai_team
+  path: /home/dmin/projects/ai_team
   description: "Система мультиагентной координации на базе GitHub для декомпозиции и выполнения задач"
   stack: [python, typer, anthropic, pyyaml, pytest]
   status: paused
@@ -52,7 +52,7 @@ projects:
   local: false
 - name: CoffeeLoyaltyV2
   repo: Uniss1/SmallbuisnessLoyalty
-  path: /home/valentin/projects/CoffeeLoyaltyV2
+  path: /home/dmin/projects/CoffeeLoyaltyV2
   description: "Telegram Mini App для системы лояльности кофеен с React фронтенд и FastAPI бэкенд"
   stack: [python, fastapi, sqlalchemy, postgresql, aiogram, react, typescript, vite, zustand]
   status: paused
@@ -60,7 +60,7 @@ projects:
   local: false
 - name: executive-dashboard
   repo: Uniss1/executive_dashboard
-  path: /home/valentin/projects/executive_dashboard
+  path: /home/dmin/projects/executive_dashboard
   description: "Интерактивный дашборд с визуализацией данных и таблицами"
   stack: [react, typescript, vite, ant-design, react-query, recharts, zustand]
   status: archived
@@ -68,7 +68,7 @@ projects:
   local: false
 - name: financial-app
   repo: Uniss1/financial-app
-  path: /home/valentin/projects/financial_app
+  path: /home/dmin/projects/financial_app
   description: "Полнофункциональное финансовое приложение с E2E шифрованием"
   stack: [node, react, typescript, vite, fastify, prisma, tailwindcss, recharts]
   status: active
@@ -76,7 +76,7 @@ projects:
   local: false
 - name: home-alice
   repo: Uniss1/home-alice
-  path: /home/valentin/projects/home_alice
+  path: /home/dmin/projects/home_alice
   description: "Система голосового управления Windows PC через Yandex Alice с 16 интегрированными инструментами"
   stack: [python, go, websockets, openai, psutil, pyautogui, playwright]
   status: active
@@ -84,7 +84,7 @@ projects:
   local: false
 - name: task-for-money-app
   repo: Uniss1/task_for_money_app
-  path: /home/valentin/projects/task_for_money_app
+  path: /home/dmin/projects/task_for_money_app
   description: "Telegram Mini App для выполнения партнерских задач с денежным вознаграждением и реферальной системой"
   stack: [python, fastapi, sqlalchemy, postgresql, redis, react, typescript, vite, docker, prometheus, grafana]
   status: active
@@ -92,7 +92,7 @@ projects:
   local: false
 - name: tg-coach
   repo: Uniss1/tg-coach
-  path: /home/valentin/projects/tg-coach
+  path: /home/dmin/projects/tg-coach
   description: "Telegram-бот для коучинга с планированием и управлением задачами"
   stack: [python, python-telegram-bot, sqlalchemy, postgresql, asyncpg, apscheduler, pydantic]
   status: active
@@ -100,7 +100,7 @@ projects:
   local: false
 - name: 1c-analitycs-chat
   repo: Uniss1/1c-analytics-chat
-  path: /home/valentin/projects/1c-analitycs-chat
+  path: /home/dmin/projects/1c-analitycs-chat
   description: "Система извлечения и обработки материалов из чатов 1С для генерации FAQ и карты решений"
   stack: [python, json]
   status: paused
@@ -108,7 +108,7 @@ projects:
   local: false
 - name: 1c-analytics-control
   repo: Uniss1/1c-analytics-control
-  path: /home/valentin/projects/1c_analytics_control
+  path: /home/dmin/projects/1c_analytics_control
   description: "Расширение платформы 1С:Предприятие для управления системой аналитики с версионированием"
   stack: [1c-bsl, postgresql]
   status: active
@@ -116,7 +116,7 @@ projects:
   local: false
 - name: ai-bot-vps
   repo: Uniss1/ai-bot-vps
-  path: /home/valentin/projects/ai_bot_vps
+  path: /home/dmin/projects/ai_bot_vps
   description: "IdeaBot — персональный Telegram-бот аналитик для записи, анализа и приоритизации идей"
   stack: [python, python-telegram-bot, postgresql, sqlalchemy, asyncpg, apscheduler, openrouter]
   status: paused
@@ -124,7 +124,7 @@ projects:
   local: false
 - name: ai-wiki
   repo: Uniss1/ai-wiki
-  path: /home/valentin/projects/ai_wiki
+  path: /home/dmin/projects/ai_wiki
   description: "Корпоративная база знаний на Wiki.js с AI-помощником и RAG для поиска через LLM"
   stack: [wikijs, postgresql, pgvector, rag]
   status: active
@@ -132,7 +132,7 @@ projects:
   local: false
 - name: bi-project
   repo: Uniss1/bi-project
-  path: /home/valentin/projects/bi_project
+  path: /home/dmin/projects/bi_project
   description: "Внедрение BI-системы на базе 1С Аналитика с интеграцией Excel и ERP-данных"
   stack: [1c-analytics, python, postgresql, excel]
   status: active
@@ -140,7 +140,7 @@ projects:
   local: false
 - name: claude-content
   repo: Uniss1/claude-content
-  path: /home/valentin/projects/claude-content
+  path: /home/dmin/projects/claude-content
   description: "Веб-приложение для преобразования сессий Claude Code в публикуемые статьи"
   stack: [python, fastapi, jinja2, tailwindcss, anthropic]
   status: active
@@ -148,7 +148,7 @@ projects:
   local: false
 - name: dashboards-instructions
   repo: Uniss1/dashboards-instructions
-  path: /home/valentin/projects/dashboards_instructions
+  path: /home/dmin/projects/dashboards_instructions
   description: "Шаблоны инструкций и смета ресурсов для разработки дашбордов аналитики"
   stack: [markdown]
   status: paused
@@ -156,7 +156,7 @@ projects:
   local: false
 - name: dashboards-pixso
   repo: Uniss1/dashboards-pixso
-  path: /home/valentin/projects/dashboards_pixso
+  path: /home/dmin/projects/dashboards_pixso
   description: "Генератор дашбордов для 1С:Аналитики с автоматизацией создания визуализаций"
   stack: [python, yaml, json]
   status: active
@@ -164,7 +164,7 @@ projects:
   local: false
 - name: dwh-project
   repo: Uniss1/dwh-project
-  path: /home/valentin/projects/dwh_project
+  path: /home/dmin/projects/dwh_project
   description: "Проект хранилища данных (структура подготовлена)"
   stack: []
   status: paused
@@ -172,7 +172,7 @@ projects:
   local: false
 - name: learning-tools
   repo: Uniss1/learning-tools
-  path: /home/valentin/projects/learning_tools
+  path: /home/dmin/projects/learning_tools
   description: "Интеграция NotebookLM с Claude через MCP для автоматизации обучения"
   stack: [python, fastmcp]
   status: paused
@@ -180,7 +180,7 @@ projects:
   local: false
 - name: own-teacher
   repo: Uniss1/own-teacher
-  path: /home/valentin/projects/own_teacher
+  path: /home/dmin/projects/own_teacher
   description: "Исследовательский проект по AI-тьюторам: педагогические принципы и технические решения"
   stack: [markdown]
   status: paused
@@ -188,7 +188,7 @@ projects:
   local: false
 - name: personal-app
   repo: Uniss1/personal-app
-  path: /home/valentin/projects/personal_app
+  path: /home/dmin/projects/personal_app
   description: "Система личного развития с трекингом навыков, финансов и целей"
   stack: [markdown, csv]
   status: active
@@ -196,7 +196,7 @@ projects:
   local: false
 - name: portfolio-site
   repo: null
-  path: /home/valentin/projects/portfolio-site
+  path: /home/dmin/projects/portfolio-site
   description: "Одностраничный портфолио-сайт"
   stack: [html, css, javascript]
   status: paused
@@ -204,7 +204,7 @@ projects:
   local: false
 - name: red-otdel
   repo: null
-  path: /home/valentin/projects/red-otdel
+  path: /home/dmin/projects/red-otdel
   description: "Проект аналитики отдела (инициализирован)"
   stack: []
   status: paused
@@ -212,7 +212,7 @@ projects:
   local: false
 - name: svoyak
   repo: Uniss1/svoyak
-  path: /home/valentin/projects/svoyak
+  path: /home/dmin/projects/svoyak
   description: "Веб-игра 'Своя Игра' — интеллектуальная викторина с поддержкой множественных команд"
   stack: [html, css, javascript, json]
   status: active
