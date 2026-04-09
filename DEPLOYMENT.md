@@ -79,19 +79,11 @@ Source: `dotfiles/skills/`
 | `session-start.sh` | Every session start |
 | `post-push.sh` | After `git push` |
 
-### 6. Shell Alias
-
-Adds to `~/.bashrc` / `~/.zshrc`:
-```bash
-alias claude='cd ~/projects/personal-os && claude'
-```
-
 ## Manual Steps After Deploy
 
 1. **Authenticate Claude** — run `claude` and follow login prompt
 2. **Authenticate GitHub** — `gh auth login` if not already done
 3. **Superpowers plugin** — auto-installs on first `claude` run (approve when prompted)
-4. **Restart terminal** — or `source ~/.bashrc` to activate alias
 
 ## File Structure
 

@@ -106,6 +106,14 @@ projects:
   status: paused
   priority: low
   local: false
+- name: 1c-analytics-ai-help
+  repo: Uniss1/1c-analytics-ai-help
+  path: /home/dmin/projects/1c-analytics-ai-help
+  description: "AI-помощник по 1С аналитике — веб-виджет с API для ответов на вопросы пользователей"
+  stack: [python, nginx]
+  status: active
+  priority: high
+  local: true
 - name: 1c-analytics-control
   repo: Uniss1/1c-analytics-control
   path: /home/dmin/projects/1c_analytics_control
